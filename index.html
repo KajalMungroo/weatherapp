@@ -3,41 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <title>My Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <h1>Johannesburg</h1>
-      <div>
-        <p>
-          Friday 18:11, scattered clouds
-          <br />
-          Humidity: 47%, Wind: 0km/h
-        </p>
-      </div>
-      <div>🌤️ 21°C</div>
-    </main>
-    <footer>
-      This project is coded by
-      <a href="https://github.com/KajalMungroo" target="_blank">
-        Kajal Mungroo</a
-      >, is
-      <a href="https://github.com/KajalMungroo/weatherapp" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a
-        href="https://main--weatherapp-kajal-shecodes.netlify.app/"
-        target="_blank"
-      >
-        hosted on Netlify</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city" required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <h1>Johannesburg</h1>
+        <div>
+          <p>
+            Friday 18:11, scattered clouds
+            <br />
+            Humidity: 47%, Wind: 0km/h
+          </p>
+        </div>
+        <div>🌤️ 21°C</div>
+      </main>
+      <footer>
+        This project is coded by
+        <a href="https://github.com/KajalMungroo" target="_blank">
+          Kajal Mungroo</a
+        >, is
+        <a href="https://github.com/KajalMungroo/weatherapp" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a
+          href="https://main--weatherapp-kajal-shecodes.netlify.app/"
+          target="_blank"
+        >
+          hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
