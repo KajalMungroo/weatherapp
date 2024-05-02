@@ -67,12 +67,13 @@ main {
 }
 
 .weather-app-temp {
-  font-size: 44px;
+  font-size: 60px;
   font-weight: bold;
+  display: inline;
 }
 
 .weather-app-emoji {
-  font-size: 44px;
+  font-size: 20px;
   margin-top: 6px;
   margin-left: 1px;
 }
